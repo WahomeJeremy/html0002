@@ -41,17 +41,15 @@ You will need the following tools installed on your machine:
 ### Installation
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/WahomeJeremy/html0002.git
    ```
 ---
 ## Usage
 To use this project, open the `index.html` file in your web browser. You can also deploy it to a web server to make it accessible online.
 ---
 ## Screenshots
-Include screenshots of your project here. For example:
-![Screenshot 1](path/to/screenshot1.png)  
-![Screenshot 2](path/to/screenshot2.png)
----
+Include screenshots of your project here. :
+<img src="assets/Screenshot 2025-01-16 105735.png" alt="">
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
 1. Fork the repository.
@@ -64,5 +62,5 @@ Contributions are welcome! Please follow these steps to contribute:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ---
 ## Contact
-Your Name - [your-email@example.com](mailto:your-email@example.com)  
-Project Link: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
+Your Name - [wahome@nisria](mailto:your-wahome@nisria.co)  
+Project Link: [https://github.com/WahomeJeremy/html0002.git](https://github.com/WahomeJeremy/html0002)
