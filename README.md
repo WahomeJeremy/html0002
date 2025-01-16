@@ -2,7 +2,7 @@
 # Project Name
 ## Overview
 This project is a responsive portfolio website designed to showcase modern web design techniques using **HTML5** and **CSS3**. It includes features such as animations, flexbox, and media queries to ensure a seamless user experience across different devices.
-A brief description of what the project does and its purpose.
+
 ---
 ## Table of Contents
 1. [About the Project](#about-the-project)  
@@ -18,8 +18,7 @@ A brief description of what the project does and its purpose.
 9. [Contact](#contact)  
 ---
 ## About the Project
-A brief overview of the project, its goals, and why it was created.  
-### Example:
+
 This is a responsive website showcasing a portfolio. The project highlights modern web design techniques using **HTML5** and **CSS3**, including features like animations, flexbox, and media queries.
 ---
 ## Technologies Used

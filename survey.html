@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1>Business Survey Form</h1>
+  <form action="#" method="POST">
+    
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="industry">Industry:</label>
+    <input type="text" id="industry" name="industry" placeholder="e.g., Technology, Healthcare" required><br><br>
+
+    <label for="revenue">Annual Revenue (in USD):</label>
+    <input type="number" id="revenue" name="revenue" placeholder="e.g., 5000000" required><br><br>
+
+    <label for="employees">Number of Employees:</label>
+    <input type="number" id="employees" name="employees" required><br><br>
+
+    <label for="education">Employee Level of Education:</label><br>
+    <select id="education" name="education" required>
+      <option value="High School">High School</option>
+      <option value="Undergraduate">Undergraduate</option>
+      <option value="Postgraduate">Postgraduate</option>
+      <option value="Other">Other</option>
+    </select><br><br>
+
+    <!-- Average Age of Employees -->
+    <label for="avg_age">Average Age of Employees:</label>
+    <input type="number" id="avg_age" name="avg_age" required><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
