@@ -4,40 +4,118 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Survey Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #3eb7b7;
+      color: #101213;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #007BFF;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Business Survey Form</h1>
-  <form action="#" method="POST">
-    
-    <label for="name">Full Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
+  <div class="container">
+    <h1>Business Survey Form</h1>
+    <form action="#" method="POST">
+      <!-- Name -->
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
 
-    <label for="email">Email Address:</label>
-    <input type="email" id="email" name="email" required><br><br>
+      <!-- Email -->
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
 
-    <label for="industry">Industry:</label>
-    <input type="text" id="industry" name="industry" placeholder="e.g., Technology, Healthcare" required><br><br>
+      <!-- Industry -->
+      <div class="form-group">
+        <label for="industry">Industry:</label>
+        <input type="text" id="industry" name="industry" placeholder="e.g., Technology, Healthcare" required>
+      </div>
 
-    <label for="revenue">Annual Revenue (in USD):</label>
-    <input type="number" id="revenue" name="revenue" placeholder="e.g., 5000000" required><br><br>
+      <!-- Annual Revenue -->
+      <div class="form-group">
+        <label for="revenue">Annual Revenue (in USD):</label>
+        <input type="number" id="revenue" name="revenue" placeholder="e.g., 5000000" required>
+      </div>
 
-    <label for="employees">Number of Employees:</label>
-    <input type="number" id="employees" name="employees" required><br><br>
+      <!-- Number of Employees -->
+      <div class="form-group">
+        <label for="employees">Number of Employees:</label>
+        <input type="number" id="employees" name="employees" placeholder="Enter the number of employees" required>
+      </div>
 
-    <label for="education">Employee Level of Education:</label><br>
-    <select id="education" name="education" required>
-      <option value="High School">High School</option>
-      <option value="Undergraduate">Undergraduate</option>
-      <option value="Postgraduate">Postgraduate</option>
-      <option value="Other">Other</option>
-    </select><br><br>
+      <!-- Employee Level of Education -->
+      <div class="form-group">
+        <label for="education">Employee Level of Education:</label>
+        <select id="education" name="education" required>
+          <option value="" disabled selected>Select the highest level</option>
+          <option value="High School">High School</option>
+          <option value="Undergraduate">Undergraduate</option>
+          <option value="Postgraduate">Postgraduate</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
 
-    <!-- Average Age of Employees -->
-    <label for="avg_age">Average Age of Employees:</label>
-    <input type="number" id="avg_age" name="avg_age" required><br><br>
+      <!-- Average Age of Employees -->
+      <div class="form-group">
+        <label for="avg_age">Average Age of Employees:</label>
+        <input type="number" id="avg_age" name="avg_age" placeholder="Enter the average age" required>
+      </div>
 
-    <!-- Submit Button -->
-    <button type="submit">Submit</button>
-  </form>
+      <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form>
+  </div>
 </body>
 </html>
