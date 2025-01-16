@@ -1,6 +1,6 @@
 # Learning HTML Tags
 #   Hey there, I`m Wahome<hr>
-I am cuurrently studying software engineering at Zindua School.
+I am currently studying software engineering at Zindua School.
 
 Currently diving through the basics of html/css.
 
